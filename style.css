@@ -1,0 +1,59 @@
+/* FONT */
+@import url('https://fonts.googleapis.com/css?family=Fjalla+One|Indie+Flower|Pacifico|Rock+Salt');
+
+/* HEADER */
+
+nav {
+    width: 901px;
+    margin: 0 auto;
+    vertical-align: middle;
+    clear: both;
+    border: 1px solid purple;
+}
+
+nav:after {
+    display: table;
+    content:'';
+    clear: both;
+}
+
+div.logo {
+    float: left;
+    border: 1px solid green;
+}
+
+div.inline-text {
+    float: right;
+    display: inline;
+}
+
+h1 {
+    font-family: 'Pacifico';
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.subheader {
+    font-family: 'Rock Salt';
+    font-size: 10px;
+}
+
+nav ul {
+    float: right;
+    border: 1px solid red;
+}
+
+nav li {
+    display: inline;
+}
+
+/* BODY */
+
+main {
+    width: 901px;
+    margin: 0 auto;
+}
+
+article {
+    width: 901px;
+}
