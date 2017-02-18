@@ -1,0 +1,188 @@
+/* FONT */
+@import url('https://fonts.googleapis.com/css?family=Fjalla+One|Indie+Flower|Pacifico|Rock+Salt');
+
+/* HEADER */
+
+header {
+    margin: 20px 0;
+}
+
+nav {
+    width: 901px;
+    margin: 0 auto;
+    vertical-align: middle;
+    clear: both;
+}
+
+nav:after {
+    display: table;
+    content:'';
+    clear: both;
+}
+
+div.logo {
+    float: left;
+}
+
+div.inline-text {
+    float: right;
+    display: inline;
+}
+
+h1 {
+    font-family: 'Pacifico';
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.subheader {
+    font-family: 'Rock Salt';
+    font-size: 10px;
+}
+
+nav ul {
+    float: right;
+}
+
+nav li {
+    display: inline;
+}
+
+/* BODY */
+
+.date {
+    float: left;
+    font-family: 'Rock Salt';
+    font-size: 12px;
+}
+
+.printer {
+    float: right;
+}
+
+h1.inline-text-print {
+    float: right;
+    display: inline;
+    font-family: 'Rock Salt';
+    font-size: 12px;
+    margin: 0 10px;
+}
+
+.grey-break {
+    height: 10px;
+    width: 901px;
+    margin: 40px auto;
+    background-color: rgba(195, 196, 197, 100);
+}
+
+main {
+    width: 901px;
+    margin: 40px auto;
+}
+
+article {
+    width: 901px;
+}
+
+h2 {
+    font-family: 'Fjalla One', sans-serif;
+    color: black;
+    font-size: 30px;
+    text-align: left;
+    margin: 0 0 0 0;
+}
+
+.hero {
+    margin: 20px 0;
+}
+
+p {
+    font-family: Verdana;
+    margin-bottom: 10px;
+    line-height: 160%
+}
+
+/* RECIPE */
+
+.recipe {
+    width: 901px;
+    background-image: url('img/list-bg.png');
+}
+
+.recipe-left{
+    display: inline-block;
+    width: 400px;
+    padding: 10px 20px;
+}
+
+.recipe-right {
+    display: inline-block;
+    width: 400px;
+    padding: 10px 20px;
+}
+
+.recipe ul {
+    list-style-type: none;
+}
+
+.grocery-1 li {
+    font-family: 'Indie Flower';
+}
+
+.grocery-2 li {
+    font-family: 'Indie Flower';
+}
+
+.author-bio {
+    width: 901px;
+    margin: 0 auto;
+    vertical-align: middle;
+    clear: both;
+}
+
+.author-bio:after {
+    display: table;
+    content:'';
+    clear: both;
+}
+
+div.author {
+    float: left;
+}
+
+.inline-text {
+    display: inline;
+}
+
+img.author {
+    margin-right: 20px;
+}
+
+h3 {
+    font-family: 'Fjalla One';
+    font-size: 16px;
+}
+
+.button {
+    height: 70px;
+    width: 200px;
+    background-color: rgba(186, 113, 88, 100);
+    color: white;
+    float: right;
+    text-align: center;
+}
+
+.button span {
+    display: inline-block;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+/* FOOTER */
+footer {
+    width: 901px;
+    margin: 0 auto;
+    text-align: center;
+    color: darkgrey;
+    font-size: 12px;
+}
