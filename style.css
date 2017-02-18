@@ -4,7 +4,7 @@
 /* HEADER */
 
 header {
-    margin: 20px 0;
+    margin: 20px 0 0 0;
 }
 
 nav {
@@ -99,6 +99,7 @@ h2 {
 p {
     font-family: Verdana;
     margin-bottom: 10px;
+    font-size: 14px;
     line-height: 160%
 }
 
@@ -148,7 +149,7 @@ p {
 }
 
 div.author {
-    display: inline;
+    display: inline-block;
 }
 
 .inline-text {
@@ -158,6 +159,7 @@ div.author {
 
 img.author {
     margin-right: 20px;
+    display: inline-block
 }
 
 h3 {
@@ -165,20 +167,18 @@ h3 {
     font-size: 16px;
 }
 
+button {
+    float: right;
+}
+
 .button {
-    height: 70px;
-    width: 200px;
     background-color: rgba(186, 113, 88, 100);
     color: white;
     float: right;
+    display: inline-block;
     text-align: center;
 }
 
-.button span {
-    display: inline-block;
-    margin-top: auto;
-    margin-bottom: auto;
-}
 
 /* FOOTER */
 footer {
@@ -187,4 +187,7 @@ footer {
     text-align: center;
     color: darkgrey;
     font-size: 12px;
+}
+footer img {
+    margin: 10px 0;
 }
